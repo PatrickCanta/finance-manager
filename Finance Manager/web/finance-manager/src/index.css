@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat&display=swap');
+body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    background-image: url(background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: #F0FFF0;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    padding: 10px 10px 10px 20px;
+    border-radius: 5%;
+}
+
+.title {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    padding-left: 55px;
+    color: blue;
+    padding-bottom: 20px;
+}
+
+.input {
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    background-color: #F0FFF0;
+    width: 260px;
+    outline: none;
+    border: none;
+    padding-left: 30px;
+}
+
+.input:focus {
+    border-bottom: 2px blue solid;
+    border-right: 2px blue solid;
+}
+
+.type {
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    width: 160px;
+    padding-left: 3px;
+    outline: none;
+    appearance: none;
+    background: url('https://api.iconify.design/simple-line-icons:wallet.svg?color=%230000ff') no-repeat right center / contain;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.details {
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    background-color: #F0FFF0;
+    width: 260px;
+    outline: none;
+    border: none;
+    padding-left: 30px;
+}
+
+.details:focus {
+    border-bottom: 2px blue solid;
+    border-right: 2px blue solid;
+}
+
+.historyTitle {
+    font-family: 'Indie Flower', cursive;
+    color: blue;
+    font-size: 20px;
+    margin-left: 140px;
+}
+
+.history {
+    height: 430px;
+    width: 420px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background: url('https://api.iconify.design/uil:usd-circle.svg?color=%23E1F5FE&width=2cm&height=2cm') repeat center center;
+    overflow-y: scroll;
+}
+
+.balance {
+    font-family: 'Indie Flower', cursive;
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.transaction {
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.expense {
+    color: red;
+}
+
+.income {
+    color: green;
+}
+
+.filters {
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.filter {
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    margin-right: 20px;
+    outline: none;
+}
+
+.space {
+    margin-right: 10px;
+    margin-left: 90px;
+}
