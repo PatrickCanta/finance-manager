@@ -1,2 +1,3 @@
 # finance-manager
-Finance app created with React
+Finance app created with ReactJS
+Version not final.
